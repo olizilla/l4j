@@ -1,0 +1,202 @@
+{
+  "name": "l4j",
+  "library": "styled-components",
+  "components": [
+    {
+      "name": "TeaLogo",
+      "type": "img",
+      "props": {
+        "width": "150px",
+        "mx": "auto",
+        "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0iIzAwMDAwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB4PSIwcHgiIHk9IjBweCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDo0cHg7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5BcnRib2FyZCAzODwvdGl0bGU+PHBhdGggZD0iTTY4LDU5YTIsMiwwLDAsMSwwLDRINjZ2MmEyLDIsMCwwLDEtNCwwVjYzSDYwYTIsMiwwLDAsMSwwLTRoMlY1NUg1OC44OEw1MCw2NC43N1Y3N0g3OFY2NC43N0w2OS4xMiw1NUg2NnY0WiIvPjxjaXJjbGUgY3g9IjY0IiBjeT0iMzEiIHI9IjYiLz48cGF0aCBkPSJNNjQsN2E1Nyw1NywwLDEsMCw1Nyw1N0E1Nyw1NywwLDAsMCw2NCw3Wm0wLDE0YTEwLDEwLDAsMCwxLDIsMTkuOFY1MWg0YTIsMiwwLDAsMSwxLjQ4LjY1bDEwLDExQTIsMiwwLDAsMSw4Miw2NFY4N2E2LDYsMCwwLDEtNiw2SDUyYTYsNiwwLDAsMS02LTZWNjRhMiwyLDAsMCwxLC41Mi0xLjM1bDEwLTExQTIsMiwwLDAsMSw1OCw1MWg0VjQwLjhBMTAsMTAsMCwwLDEsNjQsMjFabTQ4LjA5LDU1Ljc2YTIsMiwwLDAsMSwuNzksMy4xOWMtLjUyLjU5LTUuMTgsNS43Mi0xMC4wNyw1LjcyaC0uMjFhNi4zOCw2LjM4LDAsMCwxLTMuMzYtMS4wN3EtLjkyLDEuNTMtMiwzYTIxLjA4LDIxLjA4LDAsMCwxLDcuMzcsMy4wNiwyLDIsMCwwLDEsMCwzLjI5Yy0uNTYuNC01LDMuNDctOS4zMiwzLjQ3YTcuNyw3LjcsMCwwLDEtMi0uMjVBNi4zOSw2LjM5LDAsMCwxLDkwLjA3LDk1YTM3LjMzLDM3LjMzLDAsMCwxLTEyLjg2LDYuNmwtMS44Ny41MmE1Ni40Nyw1Ni40NywwLDAsMC03LjYyLDIuNDksMTMuMzgsMTMuMzgsMCwwLDEsMy41OCw1LjIxLDIsMiwwLDEsMS0zLjc1LDEuNEExMCwxMCwwLDAsMCw2NCwxMDYuNzRhMTAsMTAsMCwwLDAtMy41NSw0LjUxLDIsMiwwLDEsMS0zLjc1LTEuNCwxMy4zOCwxMy4zOCwwLDAsMSwzLjU4LTUuMjEsNTYuNDcsNTYuNDcsMCwwLDAtNy42Mi0yLjQ5bC0xLjg3LS41MkEzNy4zMywzNy4zMywwLDAsMSwzNy45Myw5NWE2LjM5LDYuMzksMCwwLDEtMy4zLDIuMTIsNy43LDcuNywwLDAsMS0yLC4yNWMtNC4zLDAtOC43NS0zLjA3LTkuMzItMy40N2EyLDIsMCwwLDEsMC0zLjI5LDIxLjA4LDIxLjA4LDAsMCwxLDcuMzctMy4wNnEtMS4wNS0xLjQ0LTItM2E2LjM4LDYuMzgsMCwwLDEtMy4zNiwxLjA3aC0uMjFjLTQuODksMC05LjU1LTUuMTItMTAuMDctNS43MmEyLDIsMCwwLDEsLjc5LTMuMTksMTkuOTMsMTkuOTMsMCwwLDEsOC44OC0xLjJxLS40My0xLjQ3LS43NS0zYTYuMzIsNi4zMiwwLDAsMS0zLjk0LjA4Yy00Ljc2LTEuNDMtNy42My03Ljk0LTcuOTQtOC42N2EyLDIsMCwwLDEsMS43Ni0yLjc4Yy42NywwLDUuNzYtLjE1LDkuMzUsMnEuMDctMS43OS4zLTMuNTZhNi41MSw2LjUxLDAsMCwxLTQuMzMtMi40MWMtMy4wOS0zLjg5LTEuNzQtMTAuODctMS41Ny0xMS42NWEyLDIsMCwwLDEsMy0xLjI4LDIxLjQzLDIxLjQzLDAsMCwxLDUuNTIsNS4xOHEuNzYtMS44OSwxLjctMy42OUE2LjQ4LDYuNDgsMCwwLDEsMjUsNDJjLTEuMzQtNC43OCwyLjYyLTEwLjY5LDMuMDctMTEuMzVhMiwyLDAsMCwxLDMuMjksMCwyMi4wOCwyMi4wOCwwLDAsMSwyLjkxLDYuMjNjLjctLjczLDEuNDMtMS40MiwyLjE5LTIuMDhhNi40NCw2LjQ0LDAsMCwxLC43LTQuNDRjMi40My00LjMzLDkuNDEtNS43MSwxMC4yLTUuODVhMiwyLDAsMCwxLDIuMzMsMi4zM2MtLjE0Ljc5LTEuNTIsNy43Ny01Ljg1LDEwLjJhNi4zNyw2LjM3LDAsMCwxLTMuMTUuODMsNyw3LDAsMCwxLTEuNDctLjE2LDM2LjUyLDM2LjUyLDAsMCwwLTEyLDI3QTM0LjQsMzQuNCwwLDAsMCw1MS44OSw5Ny43OGwxLjgzLjUxQTQ3LjkyLDQ3LjkyLDAsMCwxLDY0LDEwMmE0Ny45Miw0Ny45MiwwLDAsMSwxMC4yOC0zLjczbDEuODMtLjUxQTM0LjQsMzQuNCwwLDAsMCwxMDAuNzcsNjQuN2EzNi41MiwzNi41MiwwLDAsMC0xMi0yNyw3LDcsMCwwLDEtMS40Ny4xNkE2LjM3LDYuMzcsMCwwLDEsODQuMTYsMzdjLTQuMzMtMi40My01LjcxLTkuNDEtNS44NS0xMC4yYTIsMiwwLDAsMSwyLjMzLTIuMzNjLjc5LjE0LDcuNzcsMS41MiwxMC4yLDUuODVhNi40NCw2LjQ0LDAsMCwxLC43LDQuNDRjLjc1LjY2LDEuNDksMS4zNSwyLjE5LDIuMDhhMjIuMDgsMjIuMDgsMCwwLDEsMi45MS02LjIzLDIsMiwwLDAsMSwzLjI5LDBjLjQ2LjY2LDQuNDEsNi41NywzLjA3LDExLjM1YTYuNDgsNi40OCwwLDAsMS0yLjkyLDMuODFxLjk0LDEuOCwxLjcsMy42OWEyMS40MywyMS40MywwLDAsMSw1LjUyLTUuMTgsMiwyLDAsMCwxLDMsMS4yOGMuMTYuNzgsMS41Miw3Ljc3LTEuNTcsMTEuNjVhNi41MSw2LjUxLDAsMCwxLTQuMzMsMi40MXEuMjMsMS43Ny4zLDMuNTZjMy41OS0yLjEzLDguNjgtMiw5LjM1LTJBMiwyLDAsMCwxLDExNS44NCw2NGMtLjMxLjc0LTMuMTgsNy4yNS03Ljk0LDguNjdhNi4zMiw2LjMyLDAsMCwxLTMuOTQtLjA4cS0uMzIsMS41MS0uNzUsM0ExOS45MywxOS45MywwLDAsMSwxMTIuMDksNzYuNzZaIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2NCIgY3k9IjY0IiByPSI2MiIvPjwvc3ZnPg=="
+      },
+      "style": {
+        "display": "block",
+        "maxWidth": "100%",
+        "height": "auto"
+      },
+      "examples": [
+        "<TeaLogo />"
+      ],
+      "system": [],
+      "description": "https://thenounproject.com/search/?q=best%20tea&i=1023913"
+    },
+    {
+      "name": "Laugh",
+      "type": "img",
+      "props": {
+        "width": "150px",
+        "mx": "auto",
+        "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0iIzAwMDAwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik01MDMuOSwxMjQuOGMtOTMuNC02NC0xNzQuNS05Ni41LTI0MC45LTk2LjVjLTUxLjYsMC04Mi45LDE5LjQtMTAwLjEsMzUuN2MtMy44LDMuNi05LjYsNC43LTE0LjcsMi43ICAgYy0xNC44LTUuOC00NC40LTE1LjUtNzkuMi0xLjljLTcuOSwyLjYtMjAuNiwxMC43LTI0LjUsMjdjLTgsMzMuMywyNC4zLDgxLjcsOTguNiwxNDcuOWMxLjYsMS40LDEuMywzLjIsMS4xLDMuOSAgIGMtMC41LDEuOS0xLjksMi4yLTIuNCwyLjNjLTQuMSwwLjgtOC44LDEuMi0xNC4xLDEuMmMtMjMuMSwwLTU1LjItNy42LTk1LjQtMjIuN2MtNS42LTIuMS0xMS45LTAuNC0xNS44LDQuMiAgIGMtMC45LDEtMjAuOCwyNS40LTEyLjgsNTYuNmM3LDI3LjMsMzIuNyw0OS44LDc2LjIsNjYuOWMwLjYsMC4yLDg0LjMsMjEuMyw3My45LDExNmMtMC40LDQsMi40LDE1LjcsMTQsMTUuN2gzMjcuOSAgIGM3LjgsMCwxNC4xLTYuMywxNC4xLTE0LjFWMTM2LjRDNTEwLDEzMS43LDUwNy43LDEyNy40LDUwMy45LDEyNC44eiBNODQuNSwxMzQuOWM2MS43LDE1LjYsMjA5LjMsNTcuMiwyNzYuNCwxMTIuMiAgIGMtNDEuNyw3LTEyNC45LDE4LjMtMTkxLjksMTAuNmMxLjEtMi4xLDItNC4zLDIuNy02LjZjMy4yLTExLjgtMC41LTI0LjMtOS42LTMyLjRDMTE5LjYsMTgwLjksOTYuNywxNTMuOCw4NC41LDEzNC45eiAgICBNNDgxLjgsNDU1LjVIMTgzLjFjMi42LTk5LjktODEuOS0xMjYuOC05My40LTEyOS45Yy0zMy41LTEzLjItNTMuNy0yOS41LTU4LjQtNDcuMWMtMi41LTkuMy0wLjMtMTcuNywyLjMtMjMuNiAgIGMzMS4xLDExLDU3LjgsMTcuNiw3OS44LDE5LjdjMTAwLDMyLjEsMjc0LjYtMy44LDI3OS43LTQuOGM0LjgtMSw4LjgtNC41LDEwLjQtOS4yYzEuNi00LjcsMC43LTkuOS0yLjUtMTMuNyAgIEMzMzUuMywxNjgsMTE5LjMsMTEzLjgsNzEuNSwxMDIuNmMwLTEuNywwLjItMywwLjUtMy45YzIuNC04LDcuOC03LjgsOC43LTguMmMwLjEsMCwyMy43LTExLjQsNTcuMywyLjVjMTUsNi4yLDMyLjcsMi41LDQ0LjQtOC41ICAgYzEzLjQtMTIuOCwzOC40LTI4LDgwLjYtMjhjNTkuMiwwLDEzMi44LDI5LjQsMjE4LjgsODcuNFY0NTUuNXoiLz48cGF0aCBkPSJNNDMyLjQsMjIyLjRjOC43LDguMywxNy4yLDIuOCwyMCwwYzUuNS01LjUsNS41LTE0LjQsMC0yMGwtMTMuOC0xMy44Yy01LjUtNS41LTE0LjQtNS41LTIwLDBjLTUuNSw1LjUtNS41LDE0LjQsMCwyMCAgIEw0MzIuNCwyMjIuNHoiLz48L2c+PC9zdmc+"
+      },
+      "style": {
+        "maxWidth": "100%",
+        "height": "auto"
+      },
+      "examples": [
+        "<Laugh />"
+      ],
+      "system": []
+    },
+    {
+      "name": "Heading",
+      "type": "h2",
+      "props": {
+        "fontSize": 4,
+        "m": 0,
+        "color": "red",
+        "py": 3
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": "1.5",
+        "webkitTextTransform": "uppercase",
+        "textTransform": "uppercase"
+      },
+      "examples": [
+        "<Heading>Accomodation</Heading>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Section",
+      "type": "div",
+      "props": {
+        "mx": "auto",
+        "my": 4,
+        "px": 1,
+        "width": [
+          "100%",
+          "600px"
+        ]
+      },
+      "style": {},
+      "examples": [
+        "<Section bg='hotpink'>Hello</Section>"
+      ],
+      "system": []
+    },
+    {
+      "name": "AccentText",
+      "type": "div",
+      "props": {
+        "color": "blue",
+        "fontWeight": "600"
+      },
+      "style": {
+        "fontFamily": "\"Avenir Next\", Helvetica, Arial, sans-serif"
+      },
+      "examples": [
+        "<AccentText>Hello</AccentText>"
+      ],
+      "system": [
+        "fontWeight"
+      ]
+    },
+    {
+      "name": "Arrow",
+      "type": "img",
+      "props": {
+        "height": "12px",
+        "src": "https://icon.now.sh/arrow",
+        "color": "blue"
+      },
+      "style": {},
+      "examples": [
+        "<Arrow />"
+      ],
+      "system": []
+    },
+    {
+      "name": "Link",
+      "type": "a",
+      "props": {
+        "color": "blue",
+        "fontWeight": "600"
+      },
+      "style": {
+        "fontFamily": "\"Avenir Next\", Helvetica, Arial, sans-serif",
+        "webkitTextShadow": "1px 1px white",
+        "textShadow": "1px 1px white"
+      },
+      "examples": [
+        "<Link>Hello</Link>"
+      ],
+      "system": [
+        "fontWeight"
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "name": "TeaLogo",
+      "i": "0",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Laugh",
+      "i": "1",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Heading",
+      "i": "2",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Section",
+      "i": "3",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "AccentText",
+      "i": "4",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Arrow",
+      "i": "5",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Link",
+      "i": "6",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 4,
+      "moved": false,
+      "static": false
+    }
+  ]
+}
